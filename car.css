@@ -1,0 +1,90 @@
+@import url(//db.onlinewebfonts.com/c/e662339992c4abf5b43f537391bd3169?family=Candara);
+
+*,
+*::after,
+*::before {
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Candara';
+    font-style: italic;
+    background-color: #224952;
+    overflow-x: hidden;
+}
+
+
+.passenger-content {
+    margin: 50px auto;
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+    height: 70vh;
+    background-color: rgb(231, 226, 226);
+    border-radius: 20px;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+#head-text {
+    font-family: 'Candara';
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 30px;
+    padding-top: 30px;
+}
+
+h2 {
+  padding-top:50px;
+  font-size: 70px;
+}
+button {
+    border: none;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+    /* margin-top: 30px; */
+    font-weight: 800;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#count-btn {
+  
+    background: darkred;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#count-btn:active {
+    transform: translateY(0.2em);
+}
+
+#save-btn {
+    background:darkcyan;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#save-btn:active {
+    transform: translateY(0.2em);
+}
+
+#save-el {
+    font-family: sans-serif;
+    font-weight: 900;
+    padding-top: 20px;
+}
+
+#last-text {
+    font-family: Helvetica;
+    padding-top: 30px;
+    font-weight: 700;
+}
